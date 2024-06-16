@@ -45,14 +45,12 @@ st.header("ATS Tracking System")
 input_text=st.text_area("Job Description: ",key="input")
 uploaded_file=st.file_uploader("Upload your resume(PDF)...",type=["pdf"])
 
-
 if uploaded_file is not None:
     st.write("PDF Uploaded Successfully")
 
-
 submit1 = st.button("Tell Me About the Resume")
 
-#submit2 = st.button("How Can I Improvise my Skills")
+submit2 = st.button("How Can I Improvise my Skills")
 
 submit3 = st.button("Percentage match")
 
@@ -86,6 +84,7 @@ elif submit3:
         st.write(response)
     else:
         st.write("Please upload the resume")
+
 
 
 
