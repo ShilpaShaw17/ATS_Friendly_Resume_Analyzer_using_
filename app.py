@@ -63,9 +63,10 @@ Highlight areas where the candidate excels and areas that may need improvement i
 """
 
 input_prompt3 = """
-You are a skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality, 
-your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches
-the job description. First, the output should come as a percentage and then keywords missing and last final thoughts.
+Pretend you are an AI-driven ATS (Applicant Tracking System) specialist with deep knowledge of data analytics and recruitment automation.
+Your mission is to analyze the resume against a given job description and determine its suitability.
+Deliver your evaluation in three parts: first, the percentage match of the resume to the job description; second, 
+identify any critical keywords that are absent; and finally, offer your concluding insights.
 """
 
 if submit1:
